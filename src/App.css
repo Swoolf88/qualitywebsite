@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+.app {
+  background-image: linear-gradient(rgb(0, 255, 179), rgb(0, 238, 255));
+  height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headertext{
+  position:relative;
+  padding-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link { 
+  color: rgb(255, 238, 1); 
+  text-decoration: none; 
+  padding: 100px; 
+  font-size: 1.4rem;
+  position:relative;
+  padding-top: 200px;
+  position: -20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hometext {
+  font-size: 24px;
+  position:relative;
+padding-top: 25px;
+border: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.aboutus {
+  font-size: 20px;
+  position:relative;
+padding-top: 25px;
+border: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ourservicestext {
+  font-size: 24px;
+  position:relative;
+padding-top: 25px;
+border: 20px;
+}
+
+.contacttext {
+  font-size: 24px;
+  position:relative;
+padding-top: 25px;
+border: 20px;
+}
+
+.iso9001 {
+  position:relative;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.iso14001 {
+  position:relative;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.natoaqap {
+  position:relative;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.blankspacehome {
+  position:relative;
+  padding-top: 420px;
+}
+
+.blankspaceaboutus {
+  position:relative;
+  padding-top: 60px;
+}
+
+.blankspaceourservices {
+  position:relative;
+  padding-top: 410px;
+}
+
+.blankspacecontact {
+  position:relative;
+  padding-top: 280px;
+}
+
+.footer {
+  display: inline-block;
+  position:relative;
+  padding-top: 15px;
+}
+
+.footeraboutus {
+  display: inline-block;
+  position: relative;
+}
+
+.footercontact {
+  display: inline-block;
+  position:relative;
+  padding-left: 550px;
+}
+
+.line {  
+  position:relative;
+  padding-top: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.separator{
+  position:relative;
+}
+
+.link:hover {
+  color: rgb(136, 255, 0);
+}
+
+.home {
+  padding: 1000px;
+  text-align: 100px;
+  padding-top: 5000px;
+}
+
+.routes {
+  padding: 1000px;
+  text-align: 100px;
+  padding-top: 5000px;
 }

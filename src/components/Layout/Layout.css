@@ -1,0 +1,19 @@
+.background-image-container {
+    background-image: url('../images/iso9001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Additional CSS properties for styling the container */
+    width: 100%;
+    height: 210px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  
+
+
+
+
+
