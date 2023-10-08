@@ -1,7 +1,5 @@
 import './App.css';
-import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
