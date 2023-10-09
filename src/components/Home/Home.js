@@ -15,7 +15,7 @@ const Home = () => {
     <img className="iso14001" src={iso14001} width="150" height="150" alt="iso14001"/>    
     <img className="natoaqap" src={natoaqap} width="150" height="150" alt="natoaqap"/>
     <div className="blankspacehome"></div>
-    <Footer className="footer"></Footer>
+    <Footer className="footeraboutus"></Footer>
   </>    
   );
 };

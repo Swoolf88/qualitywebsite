@@ -11,14 +11,31 @@ const Layout = () => {
       <div className="headertext">
     <nav>
   <ul>
-          <Link className="link" to="/">Főoldal</Link>
+        <div className="menucontainer">
+          <Link to="/">          
+            <div className="menulinkmainpage">
+              Főoldal
+            </div>          
+          </Link>          
           
-         <Link className="link" to="/aboutus">Rólunk</Link>
+         <Link to="/aboutus">
+          <div className="menulinkaboutus">
+            Rólunk
+          </div>
+         </Link>
          
-         <Link className="link" to="/ourservices">Szolgáltatásaink</Link>
+         <Link to="/ourservices">
+          <div className="menulinkourservices">
+            Szolgáltatásaink
+          </div>
+         </Link>
          
-         <Link className="link" to="/contact">Kapcsolat</Link>
-         
+         <Link to="/contact">
+          <div className="menulinkcontact">
+           Kapcsolat
+          </div>
+         </Link>
+         </div>         
          </ul>
         </nav>
         </div>
