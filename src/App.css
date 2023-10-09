@@ -50,7 +50,7 @@
 
 .menulinkourservices {
   color: white;
-  width: 140px;
+  width: 145px;
   height: 40%;
   background-color: black;
   flex: 1; /* Takes up as much space as available */
@@ -97,6 +97,7 @@ padding-left: 10px;
 padding-top: 25px;
 border: 20px;
 padding-left: 10px;
+width: 90%;
 }
 
 .ourservicestext {
@@ -113,6 +114,9 @@ padding-left: 10px;
 padding-top: 25px;
 border: 20px;
 padding-left: 10px;
+padding-right: 10px;
+width: 80%;
+flex-shrink: 1;
 }
 
 .iso9001 {
@@ -170,10 +174,11 @@ padding-left: 10px;
 .footercontact {
   display: inline-block;
   position:relative;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-top: 0%;
-  width: 100%;
+  width: 80%;
   flex: 1;
+  flex-shrink: 1;
 }
 
 .footercontainer {
