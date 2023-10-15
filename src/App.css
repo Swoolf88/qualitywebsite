@@ -1,4 +1,10 @@
 .app {
+   @media (max-width: 767px) {
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    text-align: left;
+  }
   background-image: linear-gradient(rgb(0, 255, 179), rgb(0, 238, 255));
   height: 100%;
 }
@@ -50,7 +56,7 @@
 
 .menulinkourservices {
   color: white;
-  width: 145px;
+  width: 150px;
   height: 40%;
   background-color: black;
   flex: 1; /* Takes up as much space as available */
@@ -83,7 +89,7 @@
 }
 
 .hometext {
-  font-size: 24px;
+  font-size: 18px;
   position:relative;
 padding-top: 25px;
 border: 20px;
@@ -92,20 +98,30 @@ padding-left: 10px;
 
 
 .aboutus {
-  font-size: 24px;
+  font-size: 16px;
   position:relative;
 padding-top: 25px;
-border: 20px;
 padding-left: 10px;
 width: 90%;
 }
 
+.iso{
+  font-size: 16px;
+  font-weight: bold;
+  position:relative;
+}
+
 .ourservicestext {
-  font-size: 24px;
+  font-size: 16;
   position:relative;
 padding-top: 25px;
-border: 20px;
 padding-left: 10px;
+}
+
+.ourservicestextpart1 {
+  font-weight: bold;
+  font-size: 16px;
+  position:relative;
 }
 
 .contacttext {
