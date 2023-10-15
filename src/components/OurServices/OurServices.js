@@ -13,6 +13,7 @@ const OurServices = () => {
           <li>Auditálásra való felkészülés </li>
           <li>Auditálás </li>
         </ul>
+        <br></br>
       <div className="ourservicestextpart1">MSZ EN ISO 14001 Környezet Irányítási rendszer: </div>
         <ul>
           <li> Új rendszer kiépítése </li>
@@ -21,7 +22,7 @@ const OurServices = () => {
           <li> Auditálásra való felkészülés </li>
           <li> Auditálás </li>
         </ul>
-
+<br></br>
       <div className="ourservicestextpart1">NATO AQAP 2110:2016 Irányítási rendszer: </div>
         <ul>
           <li> Új rendszer kiépítése </li>
@@ -31,6 +32,7 @@ const OurServices = () => {
           <li> Auditálásra való felkészülés </li>
           <li> Auditálás </li>
         </ul>
+        <br></br>
       <div className="ourservicestextpart1">Mérnöki és műszaki tanácsadás: </div> 
         <ul>
           <li> Rajzi és műszaki dokumentációk felülvizsgálata-ellenőrzése-készítése </li>
